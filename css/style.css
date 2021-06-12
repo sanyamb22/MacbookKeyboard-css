@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+#keyboard{
+    height: 97vh;
+    width: 75vw;
+    background-color: #A3AAAE;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+#keys{
+    height: 48vh;
+    width: 80vw;
+    /* background-color: rgb(136, 136, 136); */
+    border-radius: 8px;
+    margin-top: -10px;
+    /* border: 3px solid rgb(82, 82, 82); */
+    
+}
+
+#touchpad{
+    height: 37vh;
+    width: 30vw;
+    background-color: #A3AAAE;
+    border-radius: 8px;
+    margin-top: 5px;
+    border: 3px solid #000000;
+
+}
+
+.row{
+    height: 13%;
+    width: 100%;
+    background-color: none;
+    margin-bottom: 10px;
+    /* margin-left: -100px; */
+    justify-content:space-evenly !important;
+}
+
+.key{
+    height: 50px;
+    width: 65px;
+    background-color: #000000;
+    /* background-color: rgba(17, 17, 17, 0.904); */
+    color: #F9F6EF;
+    /* color: #fff; */
+    margin: 0px -80px;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 -4px 4px #585858;
+}
+
+.key-sm{
+    height: 35px;
+}
+
+.fa:before{
+    color: #F9F6EF !important;
+}
+.fas:before{
+    color: #F9F6EF !important;
+}
+
+/* FLEX */
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+.space-between{
+    justify-content: space-between;
+    align-items: center;
+}
